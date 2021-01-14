@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  courseServiceUrl: 'http://localhost:5000/aaa-course-portal/us-central1/api'
+  courseServiceUrl: 'http://localhost:5000/iaa-course-portal/us-central1/api'
   // get courseServiceUrl() {
   //   return window.config.courseServiceUrl;
   // }

@@ -1,3 +1,21 @@
 .course-card {
   cursor: pointer;
 }
+.course-box {
+  min-height: 170px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #000000;
+  padding: 45px 35px;
+  color: #fefefe;
+  text-align: center;
+
+  .course-name {
+    color: #ffffff;
+  }
+
+  .course-description {
+    color: #787e82;
+    padding-top: 10px;
+  }
+}

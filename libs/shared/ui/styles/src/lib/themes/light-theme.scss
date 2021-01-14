@@ -4,7 +4,8 @@
 @import 'palette';
 
 $todo-primary: mat-palette($custom-palette, 800, 300, 900);
-$todo-accent: mat-palette($mat-light-blue);
+$todo-accent: mat-palette($custom-palette, 800, 300, 900);
+$todo-action: mat-palette($custom-palette, 800, 300, 900);
 $todo-warn: mat-palette($mat-pink, 600);
 
 $todo-light-theme: mat-light-theme($todo-primary, $todo-accent, $todo-warn);

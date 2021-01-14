@@ -37,13 +37,8 @@ export class TopbarComponent implements OnInit {
 
   ngOnInit() {
     this.loggedIn$ = this.userService.isLoggedIn$;
-    this.homeUrl$ = combineLatest([
-      this.courseClientFacade.schoolId$,
-      this.courseClientFacade.courseId$
-    ]).pipe(
-      map(([schoolId, courseId]) =>
-        schoolId ? `${schoolId}/courses/${courseId ? courseId : ''}` : ''
-      )
+    this.homeUrl$ = this.courseClientFacade.schoolId$.pipe(
+      map(schoolId => (schoolId ? `${schoolId}/courses` : ''))
     );
     this.navigationItems$ = this.courseClientFacade.schoolId$.pipe(
       map(schoolId => {
@@ -51,7 +46,7 @@ export class TopbarComponent implements OnInit {
           // TODO: add dropdowns here
           // TODO: add icons here
           {
-            link: 'https://theangulararc-zix2820.slack.com',
+            link: 'https://iaa-andreaslydemann.slack.com',
             label: 'Community',
             icon: 'groups',
             externalLink: true

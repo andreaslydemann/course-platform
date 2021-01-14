@@ -13,8 +13,8 @@ const verifyToken = async ({ authorization, schoolid }) => {
     console.log('Running with mock data');
     return {
       admin: true,
-      uid: 'XHjUUmEkvPc0Ye8SZlvtBTAAt622',
-      schoolId: 'christianlydemann-eyy6e'
+      uid: 'YxYLITinh8PNJDjQJ9Ocdrey6Ul1',
+      schoolId: 'andreaslydemann-22gwh'
     } as AuthIdentity;
   }
 

@@ -4,6 +4,7 @@
 $theme-colors: (
   'primary': --todo-primary,
   'accent': --todo-accent,
+  'action': --todo-action,
   'warn': --todo-warn
 );
 
@@ -37,7 +38,7 @@ $unit-colors-vals: (
   'black': #000,
   'white': #ffffff,
   'grey': #8b8b8b,
-  'success': #00be49,
+  'success': #ff6c00,
   'grey-10': #d8d8d8,
   'grey-20': #c5c5c5,
   'grey-30': #b2b2b2,

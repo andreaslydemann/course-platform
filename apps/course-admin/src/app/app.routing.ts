@@ -37,7 +37,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: `christianlydemann-eyy6e`
+    redirectTo: `andreaslydemann-22gwh`
   }
 ];
 

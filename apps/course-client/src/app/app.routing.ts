@@ -64,7 +64,7 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: `christianlydemann-eyy6e/courses`
+    redirectTo: `andreaslydemann-22gwh/courses`
   }
 ];
 

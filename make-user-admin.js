@@ -7,7 +7,7 @@ async function setCustomClaim(uid) {
   const auth = await admin
     .auth()
     .tenantManager()
-    .authForTenant('christianlydemann-eyy6e');
+    .authForTenant('andreaslydemann-22gwh');
 
   await auth.setCustomUserClaims(uid, { admin: true });
   const user = await auth.getUser(uid);

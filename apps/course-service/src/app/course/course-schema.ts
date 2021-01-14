@@ -4,5 +4,6 @@ export const courseQuerySchema = gql`
   type Course {
     id: ID
     name: String
+    description: String
   }
 `;

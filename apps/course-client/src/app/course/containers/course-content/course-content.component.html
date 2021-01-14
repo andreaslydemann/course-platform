@@ -11,7 +11,7 @@
     </app-button>
     <app-button
       *ngIf="!lesson.isCompleted"
-      color="primary"
+      color="action"
       (buttonClicked)="onCompletedLessonClick(true, lesson.id)"
     >
       Mark Complete

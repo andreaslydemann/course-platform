@@ -90,6 +90,7 @@ export class CourseResourcesService {
         course {
           id
           name
+          description
         }
       }
     `;

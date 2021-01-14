@@ -3,7 +3,10 @@
   <mat-toolbar color="primary">
     <a class="branding spacer" [href]="homeUrl$ | async">
       <img [src]="logo" [alt]="logo" />
-      {{ 'topbar.title' | translate }}
+      <div class="title-container">
+        <p class="title1">{{ 'topbar.title1' | translate }}</p>
+        <p>{{ 'topbar.title2' | translate }}</p>
+      </div>
     </a>
 
     <ul class="menu-items" *ngIf="loggedIn$ | async">

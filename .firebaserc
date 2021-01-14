@@ -1,17 +1,17 @@
 {
   "targets": {
-    "aaa-course-portal": {
+    "iaa-course-portal": {
       "hosting": {
         "course-client": [
-          "aaa-course-portal"
+          "iaa-course-portal"
         ],
         "course-admin": [
-          "aaa-course-admin"
+          "iaa-course-admin"
         ]
       }
     }
   },
   "projects": {
-    "default": "aaa-course-portal"
+    "default": "iaa-course-portal"
   }
 }

@@ -7,13 +7,12 @@
       fxFlex.gt-md="33"
       class="course-card"
       (click)="courseSelected(course.id)"
-      ><mat-card-title>{{ course.name }}</mat-card-title>
-      <img mat-card-image src="/assets/img/login.jpg" alt="course picture" />
-      <mat-card-content>
-        <p>
-          {{ course.description }}
-        </p>
-      </mat-card-content>
+    >
+      <div class="course-box">
+        <h1 class="course-name">{{ course.name }}</h1>
+        <p class="course-description">{{ course.description }}</p>
+      </div>
+      <mat-card-content> </mat-card-content>
     </mat-card>
   </div>
 </ng-container>
